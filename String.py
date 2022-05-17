@@ -1,3 +1,6 @@
+ 
+ 
+ 
  # Example 1
   
 myStr = 'pythonon'
@@ -59,7 +62,7 @@ print(abc)
 
 # The strip() function will only remove whitespaces before start and after end but not in between also if we pass the argument then it will remove that element also.
 
-# The split() function will return all the individual elements in a list format
+# The split() function will return all the individual elements in a list format. If we pass argument of existing letter then it will cut the string into 2 parts from that point except that letter.
 
 # To remove all the whitesapces contained in a string make use of replace() function
 
@@ -70,6 +73,41 @@ If you want to remove duplicated spaces, use str.split() followed by str.join():
 
 >>> " ".join("  hello  apple  ".split())
 'hello apple'
+
+# Example 8
+
+abc = 'apple'
+ghi = max(abc)
+print(ghi)
+#Output: p
+
+# Example 9
+
+abc = 'apple'
+ghi = min(abc)
+print(ghi)
+#Output: a
+
+# Example 10
+
+abc = 'apple'
+ghi = len(abc)
+print(ghi)
+#Output: 5
+
+# Example 11
+
+abc = 'apple'
+ghi = min(abc)
+print(ghi)
+#Output: a
+
+# Example 12
+ghi = abc.replace('p','z')
+print(ghi)
+# Output: azzle
+
+
 
 
 
