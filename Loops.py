@@ -43,7 +43,15 @@ output :
 14
 15
 
-# 4
+# 4 
+
+ghi = 5
+for eachNumber in range(ghi):
+    print('before while:',eachNumber)
+    while(eachNumber < 25):
+        print('inside while:',eachNumber)
+        eachNumber = eachNumber + 20
+    print('after while:',eachNumber)
 
 
 
